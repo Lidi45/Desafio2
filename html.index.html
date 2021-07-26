@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta nome="Sistema de Cadastros" content="Sistema de Cadastros">
+    <meta nome="author" content="Lidiane Oliveira">
+    <title>SISTEMA DE CADASTRO</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: rgb(195, 194, 197);
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        h1 {
+            color: white;
+            text-align: center;
+            background-color: rgb(3, 3, 3);
+            font-size: 40px;
+        }
+        
+        #Cadastro-cliente {
+            background-color: #9e9fa1;
+        }
+        
+        label {
+            margin: 0 15px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        
+        input {
+            margin: 20px 0;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+        }
+        
+        .button-product {
+            height: 100px;
+        }
+        
+        button {
+            margin: 10px 20px;
+            padding: 12px 20px;
+            width: 200px;
+            background-color: #f2f3ae;
+            background-color: #fcfcfc;
+            color: #000000;
+            border-radius: 6px;
+            border: 0;
+            transition: background-color 0.2s;
+            font-size: 16px;
+            font-weight: 600;
+            height: fit-content;
+        }
+        
+        button:hover {
+            color: white;
+            cursor: pointer;
+            background-color: #717e8d;
+        }
+        
+        footer {
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            background-color: rgb(3, 3, 3);
+        }
+        
+        footer a {
+            color: #717e8d;
+            margin: 5px;
+            margin-top: 50px;
+        }
+        
+        footer a:hover {
+            color: white;
+        }
+    </style>
+    <section class="sub-section" id="test">
+        <table>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <div class="container">
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paralogin"></a>
+
+        <div class="content">
+
+            <!--SISTEMA DE CADASTRO DE CLIENTE-->
+            <div id="Cadastro-cliente">
+                <form method="post " action=" ">
+                    <h1>Cadastro de Cliente</h1>
+
+                    <p>
+                        <label for="nome ">Nome</label>
+                        <input id="nome" nome="nome " required="required " type="text " placeholder="Lidiane Oliveira " />
+
+                    </p>
+
+                    <p>
+                        <label for="telefone ">Fone</label>
+                        <input id="telefone " nome="telefone " required="required " type="password " placeholder="(81).98373.0000 " />
+                    </p>
+
+                    <p>
+                        <label for="email_cad ">E-mail</label>
+                        <input id="email_cad " nome="email_cad " required="required " type="email " placeholder="lidi1976@gmail.com " />
+                    </p>
+
+                    <p>
+                        <label for="endereço ">Endereço</label>
+                        <input id="endereço " nome="endereço_cad " required="required " type="endereço " placeholder="Av.Brasil ,820 " />
+                        <p>
+                            <div class="button-product">
+                                <button type="button" onClick="assignValuesProduct()">Enviar</button>
+                        </p>
+                    </p>
+
+                </form>
+                </div>
+
+                </body>
+
+</html>
+
+<!--FORMULÃÂRIO DE CADASTRO DE PRODUTO-->
+
+<div id="Cadastro de produto ">
+    <form method="post " action=" ">
+        <h1>Cadastro de Produto</h1>
+
+        <p>
+            <label for="Produto ">Produto</label>
+            <input id="Produto " nome=" Produto " required="required " type="text " placeholder=" " />
+        </p>
+
+        <p>
+            <label for=" Preço ">Preço</label>
+            <input id="preço " nome="Preço " required="required " type="Preço " placeholder="R$ " />
+        </p>
+
+        <p>
+            <label for="Código Fiscal ">Código Fiscal</label>
+            <input id="Código Fiscal=" senha_cad " required="required " type="password " placeholder=" " />
+        </p>
+        <label for="Fornecedor ">Fornecedor</label>
+        <input id="Fornecedor=" senha_cad " required="required " type="password " placeholder=" " />
+        </p>
+
+        <p>
+            <div class="button-product">
+                <button type="button" onClick="assignValuesProduct()">Enviar</button>
+
+        </p>
+
+    </form>
+    </div>
+</div>
+<footer>
+    <p>Desenvolvido por Lidiane Oliveira</p>
+    <a href="https://github.com/Lidi45" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/lidiane-oliveira-da-silva-34a15832/" target="_blank">Linkedin</a>
+</footer>
+</body>
+
+</html>
+
+</body>
+
+</html>
